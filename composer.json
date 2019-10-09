@@ -1,0 +1,19 @@
+{
+  "name": "masakina0518/tomopay-common",
+  "description": "tomopay common",
+  "license": "proprietary",
+  "type": "library",
+  "version": "1.0.0",
+  "authors": [
+      {
+          "name": "tomowel payment service"
+      }
+  ],
+  "autoload": {
+    "psr-4": {"Tomopay\\": "src/Tomopay"}
+  },
+  "require": {
+    "php": ">=5.4.16",
+    "phpunit/phpunit": "4.6.3"
+  }
+}
