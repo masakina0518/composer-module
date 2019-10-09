@@ -3,7 +3,7 @@
   "description": "tomopay common",
   "license": "proprietary",
   "type": "library",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "authors": [
       {
           "name": "tomowel payment service"
