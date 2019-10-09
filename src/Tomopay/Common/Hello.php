@@ -14,6 +14,6 @@ class Hello
      */
     public static function sayHello()
     {
-        return "Hello world1";
+        return "Hello world1.0.1";
     }
 }
