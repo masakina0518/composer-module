@@ -14,6 +14,6 @@ class Hello
      */
     public static function sayHello()
     {
-        return "Hello world3";
+        return "Hello world4";
     }
 }
