@@ -143,3 +143,12 @@ composer.jsonでrequreするバージョンを`[ブランチ名]-dev`と記述�
 
 リリース時は作業ブランチをmasterへマージ・正式リリースとするために`git tag`を設定する
 
+
+## UNIT testについて
+
+Unit testは`PHPunit`を利用する。  
+composerから`PHPunit`を実行できるよう`composer.json`に定義しているため以下のように実行する。
+
+```
+compser test tests
+```

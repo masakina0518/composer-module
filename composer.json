@@ -10,11 +10,17 @@
       }
   ],
   "autoload": {
-    "psr-4": {"Tomopay\\": "src/Tomopay"}
+    "psr-4": {
+      "Tomopay\\": "src/Tomopay",
+      "Tomopay\\Tests\\": "tests/Tomopay"
+    }
   },
   "require": {
     "php": ">=5.4.16",
     "aspendigital/fuel-doctrine2": "dev-master",
     "phpunit/phpunit": "4.6.3"
+  },
+  "scripts": {
+    "test": "phpunit"
   }
 }
