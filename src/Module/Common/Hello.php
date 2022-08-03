@@ -1,6 +1,6 @@
 <?php
 
-namespace Tomopay\Common;
+namespace Module\Common;
 
 /**
  * パッケージインストール動作確認用クラス

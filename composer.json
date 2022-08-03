@@ -1,18 +1,18 @@
 {
-  "name": "masakina0518/tomopay-common",
-  "description": "tomopay common",
+  "name": "masakina0518/composer-module",
+  "description": "composer-module sample",
   "license": "proprietary",
   "type": "library",
   "version": "1.0.1",
   "authors": [
       {
-          "name": "tomowel payment service"
+          "name": "composer-module sample"
       }
   ],
   "autoload": {
     "psr-4": {
-      "Tomopay\\": "src/Tomopay",
-      "Tomopay\\Tests\\": "tests/Tomopay"
+      "Module\\": "src/Module",
+      "Module\\Tests\\": "tests/Module"
     }
   },
   "require": {
